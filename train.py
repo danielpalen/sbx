@@ -48,7 +48,7 @@ seed = args.seed
 total_timesteps = int(args.total_timesteps)
 eval_freq = max(5_000_000 // args.log_freq, 1)
 
-group = f'CrossQ_{args.env}_b1=.5_2'
+group = f'CrossQ_{args.env}_b1=.5_2_refactor'
 
 args_dict = vars(args)
 
